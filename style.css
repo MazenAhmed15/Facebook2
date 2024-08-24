@@ -1,0 +1,89 @@
+body{
+    background: #f0f2f5;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    border: none;
+    background: #fff;
+    box-shadow: 0px 1px 5px 0px gray;
+    border-radius: 6px;
+}
+
+form{
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 250px;
+    text-align: center;
+    width: max-content;
+    font-size: 18px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+input{
+    border: 1px solid #dddfe2;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+input:default{
+    border:1px solid blue;
+}
+
+.signin{
+    color: white;
+    background-color: #0866ff;
+    border: none;
+    width: 360px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 16px;
+    font-size: 21px;
+    border-radius: 6px;
+}
+
+a{
+    color: #0866ff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.make{
+    color: white;
+    background-color: rgb(0, 189, 0);
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+div{
+    position: absolute;
+    top: 180px;
+    right: 150px;
+}
+
+img{
+    margin: -28px;
+    height: 106px;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 28px;
+    width: auto;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
